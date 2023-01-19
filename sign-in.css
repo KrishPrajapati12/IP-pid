@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 30, 37);
+    /* background: linear-gradient(to top left, rgba(0, 0, 0,0.33) ,rgba(0, 0, 0, 0.33)); */
+    background-repeat: no-repeat;
+    backdrop-filter:blur(140px);
+}   
+.form{
+    /* filter: blur(3px); */
+    /* border: 2px solid red; */
+    width: 700px;
+    margin: auto;
+    background-color: rgb(224, 235, 245);
+    border-radius: 2pc;
+    box-shadow: 0.2em 0.2em 0.2em 0em rgb(160, 160, 160);
+    z-index: 33;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    padding: 18px;
+    margin: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+input{
+    width: 400px;
+    height: 48px;
+    margin: 10px;
+    align-self: center;
+    background-color: rgba(240, 248, 255,0);
+    outline: 0px;
+    border-radius: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    /* border: none; */
+    /* border-bottom: 2px solid black; */
+}
+
+
+
+input::placeholder{
+    color: rgb(168, 163, 163);
+    font-size: 15px;
+    text-align:left;    
+    padding-left: 12px;
+}
+
+
+
+button{
+    width: 400px;
+    height: 40px;
+    margin: 5px;
+    margin-bottom: 12px;
+    align-self: center;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 2pc;
+    font-family: 'Roboto Mono', monospace;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transform:translateY(-0.24em) ;
+    box-shadow: 0em 0.3em 0.2em 0em gray;
+}
+
+
+
+
+.blue-color{
+    color:gray;
+    font-size: 22px;
+    margin-right: 2px;
+}
+.grey-color{
+    color: gray;
+    font-size: 22px;
+    /* text-align: right; */
+    margin-right: 2px;
+}
+
+.black-color{
+    color: gray;
+    font-size: 22px;
+    margin-right: 20px;
+}

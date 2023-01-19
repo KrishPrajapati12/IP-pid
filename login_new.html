@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&display=swap" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" > -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" >
+
+    <link rel="stylesheet" href="login_new.css">
+    
+    <title>Login Page</title>
+</head>
+<body>
+    <script src="login_form.js">
+
+    </script>
+    <div class="logo">
+        <img src="logo.jpg" alt="">
+    </div>
+    <div class="container">
+        <h1>Log-in Form</h1>
+        <form action="dash.html" onsubmit="return validate()">
+            <label for="uname">Enter Username:</label><br>
+            <input type="text" id="uname" placeholder="Username" name="uname" autofocus>
+            <br>
+            <label for="Password" class="pw">Enter Password:</label><br>
+            <input type="password" id="Password" placeholder="Password" name="pwd">
+            <br>
+
+            <input type="checkbox" id="rem" name="rem">
+            <label for="re" id="rm">Remember Me</label><br>
+
+            <span><a href="#">Forget Password</a></span><br>
+            <span>Not Registered? <a href="sign-form.html">Create an Account</a></span><br>
+
+            <button type="submit" onclick="validate()" class="btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>
